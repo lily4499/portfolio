@@ -7,7 +7,7 @@ section {
     background-color: white;
 }
 
-.hero {
+.intro {
     background-color: #1c1d25;
     height: 100vh;
     color: white;
@@ -53,19 +53,19 @@ p {
     font-weight: 300;
 }
 
-.subtext {
+.speech {
     font-size: 15px;
     font-weight: 300;
 }
 
-.hero-area {
+.intro-area {
     display: flex;
     height: 100%;
     justify-content: space-between;
     align-items: center;
 }
 
-.hero-text {
+.intro-text {
     margin-left: 80px;
     margin-bottom: 200px;
 }
@@ -96,45 +96,45 @@ p {
 }
 
 .logo {
-    height: 80px;
-    margin: 30px;
+    height: 150px;
+    margin: 25px;
 }
 .social {
     margin: 20px;
 }
 
-.sub-section {
+.about-section {
     display: flex;
     justify-content: space-around;
     padding: 80px;
 }
 
-.sub-section-alternative {
+.project-wrap {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 80px;
 }
 
-.headshot {
+.img {
     width: 300px;
     border-radius: 150px;
     margin-left: 80px;
 }
 
-.headshot-container {
+.img-container {
     display: flex;
     align-items: center;
 }
 
-.project-card {
+.project-item {
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
 }
 
-.project-container {
+.project-wrap-items {
     display: flex;
     justify-content: space-around;
 }
@@ -167,25 +167,8 @@ a {
     color: white;
 }
 
-.hamburger {
-    display: none;
-}
-
-.hamburger:focus{
-    outline: 0;
-}
-
 
 @media only screen and (max-width: 1000px) {
-    .hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-    }
 
     ul {
         display: none;
